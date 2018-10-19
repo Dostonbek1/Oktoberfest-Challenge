@@ -1,4 +1,5 @@
 # The Game of Nim Beer
+![Nim Beer Image](nim_game_pic.png)
 
 The logic of this game is very simple. Once it is run, there is a window where it explains the rules of how to play the game. Rules: there are two players, and a pack of beers. Each user takes turns to drink beers from the pack, and should drink only 1 to 3 beers each time. The player who drinks the last beer in the pack loses the game, and has to buy a new pack of beers. The other player is a winner, and gets to drink for free. On this window, there is a button that says “Play Now”, which starts the game.
 
