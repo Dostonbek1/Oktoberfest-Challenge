@@ -1,10 +1,9 @@
 ######################################################################
 # Author: Dostonbek Toirov
-# Username: toirovd
 #
-# Assignment: Final Project
+# Assignment: Oktoberfest Challenge (Final Project)
 #
-# Purpose: Creating a game similar to the rules of Nim game using turtle library in python
+# Purpose: Creating a game similar to the rules of nim game using turtle library in python
 ######################################################################
 # Acknowledgements: TA's :  William Romano, Rusty Dotson, Cody, Aaron Christson
 #
@@ -159,7 +158,7 @@ class Nim_game:
         '''
         global wn
         wn = turtle.Screen()
-        wn.title("Game of Nim beer")
+        wn.title("Oktoberfest Challenge")
         wn.bgpic("pics/bar3.gif")
         wn.update()
         wn.addshape("pics/play.gif")
@@ -179,7 +178,7 @@ class Nim_game:
         self.bg_of_text()
         self.intr.goto(0, 200)
         self.intr.color("white")
-        self.intr.write("The Game of Nim Beer",align="center", font=("Arial", 30, "bold"))
+        self.intr.write("Oktoberfest Challenge",align="center", font=("Arial", 30, "bold"))
         self.intr.goto(0, 150)
         self.intr.write("Rules of the game:",align="center", font=("Arial", 20, "bold"))
         self.intr.goto(0, 100)
